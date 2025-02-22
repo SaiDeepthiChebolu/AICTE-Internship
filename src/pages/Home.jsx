@@ -9,7 +9,7 @@ const Home = () => {
     <div class="card">
       <img src="/veg.webp" class="card-img-top" alt="..." height={300}/>
       <div class="card-body">
-        <h5 class="card-title">Veg Recipes</h5>
+        <h5 class="card-title">Vegetarian Recipes</h5>
         <p class="card-text">Vegetarian cuisine is incredibly diverse and flavorful, offering a wide range of options for every taste and preference. From hearty stews and curries to light salads and appetizers, there's something for everyone to enjoy.</p>
       </div>
     </div>
@@ -18,7 +18,7 @@ const Home = () => {
     <div class="card">
       <img src="/non-veg.jpg" class="card-img-top" alt="..." height={300}/ >
       <div class="card-body">
-        <h5 class="card-title">Non-Veg Recipes</h5>
+        <h5 class="card-title">Non-Vegetarian Recipes</h5>
         <p class="card-text">Non-vegetarian recipes celebrate the rich and diverse flavors of meat, poultry, and seafood. These dishes often feature succulent cuts of meat cooked to perfection, infused with aromatic spices, and paired with complementary ingredients.</p>
       </div>
     </div>
