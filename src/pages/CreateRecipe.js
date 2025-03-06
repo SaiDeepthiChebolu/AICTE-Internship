@@ -38,10 +38,11 @@ const CreateRecipe = () => {
   };
 
   const handleSubmit = async (event) => {
+    console.log("yes");
     event.preventDefault();
     try {
       await axios.post(
-        "http://localhost:3500/",
+        "http://localhost:3500/createrecipe",
         { ...recipe },
         {
           headers: { authorization: cookies.access_token },
@@ -119,7 +120,7 @@ const CreateRecipe = () => {
         />
 </div>
 
-        <button type="submit">Create Recipe</button>
+        <button type="submit" onClick={(e)=>handleSubmit(e)}>Create Recipe</button>
       </form>
     </div>
   );

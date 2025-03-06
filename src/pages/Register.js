@@ -11,7 +11,7 @@ const Register = ({ setIsLoggedIn }) => {
   const navigate = useNavigate();
 
   const handleRegister = async () => {
-    await axios.post("http://localhost:5000/register", { username, email, password });
+    await axios.post("http://localhost:3500/register", { username, email, password });
     localStorage.setItem("username", username);
     setIsLoggedIn(true);
     navigate("/home");
